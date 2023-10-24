@@ -52,8 +52,8 @@ while (true)
 {
     if (str3.Length == 5)
     {
-        double result = (num3 * 0.18) * 0.03;
-        Console.WriteLine(result);
+        double result5 = (num3 * 0.18) * 0.03;
+        Console.WriteLine(result5);
         break;
     }
     else
@@ -82,14 +82,14 @@ while (true)
     if (str4.Length == 3) //yoxluyur gorur 3ludur
     {
         int numWith7 = num4 * 10 + 7;
-        double result = numWith7 * 0.07;
-        Console.WriteLine("Cavab: " + result);
+        double result4 = numWith7 * 0.07;
+        Console.WriteLine("Cavab: " + result4);
         break;
     }
     else
     {
         Console.WriteLine("Duzgun formatda eded daxil etmediniz.");
-        num4 = int.Parse(Console.ReadLine());
+        str4 = Console.ReadLine();
     }
 }
 #endregion
@@ -103,8 +103,8 @@ while (true)
 {
     if (str5.Length == 4)
     {
-        string result = "4" + str5 + "44";
-        int resultInt = int.Parse(result);
+        string result2 = "4" + str5 + "44";
+        int resultInt = int.Parse(result2);
         int lastResult = (resultInt * 44) / 100;
         Console.WriteLine(lastResult);
         break;
@@ -117,6 +117,7 @@ while (true)
 }
 #endregion
 #region 6ci
+Console.WriteLine("4remli eded daxil edin");
 int num6= int.Parse(Console.ReadLine());
 string str6= num6.ToString();   
 while (true)
@@ -132,7 +133,32 @@ while (true)
     else
     {
         Console.WriteLine("Duzgun formatda eded daxil etmediniz.");
-        num6 = int.Parse(Console.ReadLine());
+        str6 = Console.ReadLine();
+    }
+}
+#endregion
+#region 7ci
+int num7= int.Parse(Console.ReadLine());
+int num8= int.Parse(Console.ReadLine());
+string str8= num8.ToString();
+string str7= num7.ToString();
+while (true)
+{
+    if(str7.Length == 5&&str8.Length==5)
+    {
+        int firstPart = num7 + num8;
+        string firstPartString=firstPart.ToString();
+        string result1 = "5" + firstPartString + "5";
+        int resultPart2 = int.Parse(result1);
+        int lastResult = (resultPart2 * 5) / 100;
+        Console.WriteLine(lastResult);
+        break;
+    }
+    else
+    {
+        Console.WriteLine("Duzgun formatda eded daxil etmediniz.");
+        str7 = Console.ReadLine();
+        str8 = Console.ReadLine();
     }
 }
 #endregion
