@@ -72,6 +72,8 @@ while (true)
 //}
 #endregion
 #region 4cu
+//4) 3 reqemli eded verilib. Bu ededin axirina 7 artir. Sonra cavabin 7% tap;
+
 Console.WriteLine("3 reqemli eded daxil edin");
 int num4 = int.Parse(Console.ReadLine());
 string str4 = num4.ToString();
@@ -92,6 +94,8 @@ while (true)
 }
 #endregion
 #region 5ci
+//5) 4 reqemli eded verilib. Bu ededin evvelin 4 reqemi , axirina ise 44 ededini artir. Alinan cavabin 44 % tap.
+
 Console.WriteLine("4remli eded daxil edin");
 int num5 = int.Parse(Console.ReadLine());
 string str5 = num5.ToString();
@@ -101,7 +105,7 @@ while (true)
     {
         string result = "4" + str5 + "44";
         int resultInt = int.Parse(result);
-        int lastResult = (resultInt * 100) / 44;
+        int lastResult = (resultInt * 44) / 100;
         Console.WriteLine(lastResult);
         break;
     }
@@ -109,6 +113,26 @@ while (true)
     {
         Console.WriteLine("Duzgun formatda eded daxil etmediniz.");
         str5 = Console.ReadLine();
+    }
+}
+#endregion
+#region 6ci
+int num6= int.Parse(Console.ReadLine());
+string str6= num6.ToString();   
+while (true)
+{
+    if(str6.Length == 4)
+    {
+        int firstCalculationPart = (num6 * 20) / 100;
+        int SecondCalculationPart = (firstCalculationPart * 10) / 100;
+        int result = SecondCalculationPart * SecondCalculationPart;
+        Console.WriteLine(result);
+        break;
+    }
+    else
+    {
+        Console.WriteLine("Duzgun formatda eded daxil etmediniz.");
+        num6 = int.Parse(Console.ReadLine());
     }
 }
 #endregion
