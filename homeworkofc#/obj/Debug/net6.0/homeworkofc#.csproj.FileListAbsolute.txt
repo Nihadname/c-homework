@@ -1,0 +1,14 @@
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\bin\Debug\net6.0\homeworkofc#.exe
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\bin\Debug\net6.0\homeworkofc#.deps.json
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\bin\Debug\net6.0\homeworkofc#.runtimeconfig.json
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\bin\Debug\net6.0\homeworkofc#.dll
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\bin\Debug\net6.0\homeworkofc#.pdb
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\obj\Debug\net6.0\homeworkofc#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\obj\Debug\net6.0\homeworkofc#.AssemblyInfoInputs.cache
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\obj\Debug\net6.0\homeworkofc#.AssemblyInfo.cs
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\obj\Debug\net6.0\homeworkofc#.csproj.CoreCompileInputs.cache
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\obj\Debug\net6.0\homeworkofc#.dll
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\obj\Debug\net6.0\refint\homeworkofc#.dll
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\obj\Debug\net6.0\homeworkofc#.pdb
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\obj\Debug\net6.0\homeworkofc#.genruntimeconfig.cache
+C:\Users\nihad\source\repos\homeworkofc#\homeworkofc#\obj\Debug\net6.0\ref\homeworkofc#.dll
