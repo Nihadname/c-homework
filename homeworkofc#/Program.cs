@@ -117,6 +117,8 @@ while (true)
 }
 #endregion
 #region 6ci
+//6) 4 reqemli eded verilib. Bu ededin evvel 20%-ni , sonra ise cavabin 10% tap. Alinan cavabin kvadratini tap.
+
 Console.WriteLine("4remli eded daxil edin");
 int num6= int.Parse(Console.ReadLine());
 string str6= num6.ToString();   
@@ -138,7 +140,9 @@ while (true)
 }
 #endregion
 #region 7ci
-int num7= int.Parse(Console.ReadLine());
+//7) 2 dene 5 reqemli eded verilib. Bu ededleri toplayib. Alinan cavabin evveline ve axirina 5 artir. Neticenin 5 % tap
+
+int num7 = int.Parse(Console.ReadLine());
 int num8= int.Parse(Console.ReadLine());
 string str8= num8.ToString();
 string str7= num7.ToString();
