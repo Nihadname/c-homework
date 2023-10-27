@@ -52,14 +52,15 @@ while (true)
 {
     if (str3.Length == 5)
     {
-        double result5 = (num3 * 0.18) * 0.03;
-        Console.WriteLine(result5);
+        int result5 = (num3 * 18) / 100;
+        int result6 = (result5 * 3) / 100;
+        Console.WriteLine(result6);
         break;
     }
     else
     {
         Console.WriteLine("Yanlış formatda eded daxil etdiniz. Yeniden daxil edin.");
-       str3 = Console.ReadLine();
+        str3 = Console.ReadLine();
     }
 }
 //if(str3.Length == 5)
@@ -72,8 +73,7 @@ while (true)
 //}
 #endregion
 #region 4cu
-//4) 3 reqemli eded verilib. Bu ededin axirina 7 artir. Sonra cavabin 7% tap;
-
+//4) 3 reqemli eded verilib. Bu ededin axirina 7 artir. Sonra cavabin 7% tap
 Console.WriteLine("3 reqemli eded daxil edin");
 int num4 = int.Parse(Console.ReadLine());
 string str4 = num4.ToString();
@@ -82,8 +82,9 @@ while (true)
     if (str4.Length == 3) //yoxluyur gorur 3ludur
     {
         int numWith7 = num4 * 10 + 7;
-        double result4 = numWith7 * 0.07;
-        Console.WriteLine("Cavab: " + result4);
+        int numWith8 = (numWith7 * 7) / 100;
+
+        Console.WriteLine("Cavab: " + numWith8);
         break;
     }
     else
