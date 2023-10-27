@@ -52,8 +52,8 @@ while (true)
 {
     if (str3.Length == 5)
     {
-        int result5 = (num3 * 18) / 100;
-        int result6 = (result5 * 3) / 100;
+        double result5 = num3 * 0.18;
+        double result6 = result5 * 0.3;
         Console.WriteLine(result6);
         break;
     }
@@ -82,7 +82,7 @@ while (true)
     if (str4.Length == 3) //yoxluyur gorur 3ludur
     {
         int numWith7 = num4 * 10 + 7;
-        int numWith8 = (numWith7 * 7) / 100;
+        double numWith8 =numWith7*0.07;
 
         Console.WriteLine("Cavab: " + numWith8);
         break;
@@ -106,7 +106,7 @@ while (true)
     {
         string result2 = "4" + str5 + "44";
         int resultInt = int.Parse(result2);
-        int lastResult = (resultInt * 44) / 100;
+        double lastResult = resultInt * 0.44;
         Console.WriteLine(lastResult);
         break;
     }
@@ -127,9 +127,9 @@ while (true)
 {
     if(str6.Length == 4)
     {
-        int firstCalculationPart = (num6 * 20) / 100;
-        int SecondCalculationPart = (firstCalculationPart * 10) / 100;
-        int result = SecondCalculationPart * SecondCalculationPart;
+        double firstCalculationPart = num6 * 0.20;
+        double SecondCalculationPart = firstCalculationPart *0.10;
+        double result = SecondCalculationPart * SecondCalculationPart;
         Console.WriteLine(result);
         break;
     }
@@ -155,7 +155,7 @@ while (true)
         string firstPartString=firstPart.ToString();
         string result1 = "5" + firstPartString + "5";
         int resultPart2 = int.Parse(result1);
-        int lastResult = (resultPart2 * 5) / 100;
+        double lastResult = resultPart2 * 0.05;
         Console.WriteLine(lastResult);
         break;
     }
