@@ -33,7 +33,7 @@ while (true)
 
     if (str2.Length == 3)
     {
-        Console.WriteLine(str2 + str2);
+        Console.WriteLine("cavab: " +str2 + str2);
         break;
     }
     else
@@ -54,7 +54,7 @@ while (true)
     {
         double result5 = num3 * 0.18;
         double result6 = result5 * 0.3;
-        Console.WriteLine(result6);
+        Console.WriteLine("cavab: " +result6);
         break;
     }
     else
@@ -107,7 +107,7 @@ while (true)
         string result2 = "4" + str5 + "44";
         int resultInt = int.Parse(result2);
         double lastResult = resultInt * 0.44;
-        Console.WriteLine(lastResult);
+        Console.WriteLine("cavab: " + lastResult);
         break;
     }
     else
@@ -130,7 +130,7 @@ while (true)
         double firstCalculationPart = num6 * 0.20;
         double SecondCalculationPart = firstCalculationPart *0.10;
         double result = SecondCalculationPart * SecondCalculationPart;
-        Console.WriteLine(result);
+        Console.WriteLine("cavab :" + result);
         break;
     }
     else
@@ -156,7 +156,7 @@ while (true)
         string result1 = "5" + firstPartString + "5";
         int resultPart2 = int.Parse(result1);
         double lastResult = resultPart2 * 0.05;
-        Console.WriteLine(lastResult);
+        Console.WriteLine(  "cavab: " + lastResult);
         break;
     }
     else
